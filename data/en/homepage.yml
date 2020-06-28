@@ -1,0 +1,139 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+  slider_item:
+    # slider item loop
+    - title : "Stand against warrantless surveillance."
+      content : "Police departments acorss the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Volunteer now"
+        link : "contact"
+
+    # slider item loop
+    - title : "Take back your privacy."
+      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Attend one of our workshops."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "View events"
+        link : "contact"
+
+    # slider item loop
+    - title : "Black lives matter."
+      content : "Government surveillance disproportionately affects the community of color."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn how"
+        link : "contact"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true 
+  feature_item:
+    # feature item loop
+    - name : "Investigate"
+      icon : "fas fa-search" # icon pack : https://themify.me/themify-icons
+      content : "We probe government offices in the county through public records requests to determine techniques and funding behind surveillance efforts."
+
+    # feature item loop
+    - name : "Educate"
+      icon : "fas fa-book-open" # icon pack : https://themify.me/themify-icons
+      content : "We release and publicize our findings to encourage citizen oversight."
+
+    # feature item loop
+    - name : "Capicitate"
+      icon : "fas fa-chalkboard-teacher" # icon pack : https://themify.me/themify-icons
+      content : "We train the public, especially activists, journalists, and members of under represented communities, in anti-surveillance techniques. We also train government officials to safely protect their citizens without needless surveillance."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About CPC"
+  image : "https://images.unsplash.com/photo-1591562654806-eb7f7f39d1fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+  content : "Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizen's Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. We accomplish this using the following methods:"
+
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : false 
+  title : "Our Course"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "We're a new organizations with lofty goals."
+  title : "We need your help"
+  button:
+    enable : true
+    label : "Volunteer"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : false 
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : false 
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.
