@@ -1,0 +1,146 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+  slider_item:
+    # slider item loop
+    - title : "It's time to regulate surveillance in San José."
+      content : "Currently, surveillance technology is only subject financial oversight in San José. With your help, that could change this year."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Volunteer now"
+        link : "contact"
+    
+
+    # slider item loop
+    - title : "Watch the watchers. Empower the people."
+      content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA. Join us to help fight it."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Join the Coalition"
+        link : "join"
+    
+
+    # slider item loop
+    - title : "Take back your privacy."
+      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Check out our anti-surveillance workshops."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn more"
+        link : "https://rr.cpcscc.org/resources/workshops/"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true 
+  feature_item:
+    # feature item loop
+    - name : "Investigate"
+      icon : "fas fa-search" # font awesome 
+      content : "We probe city and county government offices through public records requests to determine techniques and funding behind surveillance efforts."
+    
+    # feature item loop
+    - name : "Legislate"
+      icon : "fas fa-gavel" # font awesome
+      content : "We assist government officials in the drafting and passing laws that promote oversight and transparency into surveillance tactics and spending."
+
+    # feature item loop
+    - name : "Educate"
+      icon : "fas fa-book-open" # font awesome
+      content : "We train activists, journalists, and the public &mdash; especially members of under represented communities &mdash; in anti-surveillance techniques."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "About the CPC"
+  image : "https://images.unsplash.com/photo-1591562654806-eb7f7f39d1fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&h=649&q=80"
+  content : "Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizens Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. We accomplish this using the following methods:"
+
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : false 
+  title : "Our Course"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "We're a new organization with lofty goals."
+  title : "We need your help"
+  button:
+    enable : true
+    label : "Volunteer"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : false 
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Success Stories"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+            
+            
+  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : true 
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : false 
+  funfact_item:
+    # funfact item loop
+    - name : "TEACHERS"
+      count : "60"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true 
+  title : "Latest News"
+  # blog item comes from "content/**/blog" folder.
+
+
+############################# enable bios on about page ##########
+bios:
+  enable: false

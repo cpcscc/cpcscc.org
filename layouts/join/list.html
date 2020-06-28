@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "join_us" }}</h2>
+      </div>
+    </div>
+        {{ .Content }}
+    <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+      <form id="newsletter_form" action="https://tinyletter.com/cpcscc" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/cpcscc', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <div class="input-wrapper">
+          <input type="email" id="email" class="form-control border-0" id="newsletter" name="email" placeholder="{{ i18n "enter_email" }}">
+          <button id="submit" type="submit" class="btn btn-primary" data-target="#submission-modal">{{ i18n "join" }}</button>
+        </div>
+      </form>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title text-center">
+        {{- range .Site.Params.social }}
+          {{- if eq .title "instagram" }}
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
+          {{- end }}
+          {{- if eq .title "twitter" }}
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
+          {{- end }}
+          {{- if eq .title "facebook" }}
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
+          {{- end }}
+        {{- end }}
+        </h2>
+  </div>
+</section>
+<!-- /contact -->
+
+{{ end }}
