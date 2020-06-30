@@ -4,8 +4,8 @@ slider:
   bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   slider_item:
     # slider item loop
-    - title : "Stand against warrantless surveillance."
-      content : "Police departments acorss the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA."
+    - title : "Watch the watchers. Empower the people."
+      content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -13,28 +13,28 @@ slider:
         enable : true
         label : "Volunteer now"
         link : "contact"
-
-    # slider item loop
-    - title : "Take back your privacy."
-      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Attend one of our workshops."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "View events"
-        link : "contact"
-
-    # slider item loop
+    
+        # slider item loop
     - title : "Black lives matter."
-      content : "Government surveillance disproportionately affects the community of color."
+      content : "Black individuals are 100 times more likely to be misidentified by facial recognition surveillance, a technique currently employed in San Jose, CA."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Learn how"
-        link : "contact"
+        link : "news/2020/07/04/stop-facial-recognition-surveillance-in-santa-clara-county/"
+
+    # slider item loop
+    - title : "Take back your privacy."
+      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Follow us and attend our workshops."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Follow us"
+        link : "https://instagram.com/cpcscc_"
 
 
 ############################### Banner feature ###############################
@@ -43,25 +43,25 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Investigate"
-      icon : "fas fa-search" # icon pack : https://themify.me/themify-icons
-      content : "We probe government offices in the county through public records requests to determine techniques and funding behind surveillance efforts."
+      icon : "fas fa-search" # font awesome 
+      content : "We probe city and county government offices through public records requests to determine techniques and funding behind surveillance efforts."
+    
+    # feature item loop
+    - name : "Legislate"
+      icon : "fas fa-gavel" # font awesome
+      content : "We assist government officials in the drafting and passing laws that promote oversight and transparency into surveillance tactics and spending."
 
     # feature item loop
     - name : "Educate"
-      icon : "fas fa-book-open" # icon pack : https://themify.me/themify-icons
-      content : "We release and publicize our findings to encourage citizen oversight."
-
-    # feature item loop
-    - name : "Capicitate"
-      icon : "fas fa-chalkboard-teacher" # icon pack : https://themify.me/themify-icons
-      content : "We train the public, especially activists, journalists, and members of under represented communities, in anti-surveillance techniques. We also train government officials to safely protect their citizens without needless surveillance."
+      icon : "fas fa-book-open" # font awesome
+      content : "We train activists, journalists, and the public &mdash; especially members of under represented communities &mdash; in anti-surveillance techniques."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About CPC"
-  image : "https://images.unsplash.com/photo-1591562654806-eb7f7f39d1fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+  title : "About the CPC"
+  image : "https://images.unsplash.com/photo-1591562654806-eb7f7f39d1fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&h=649&q=80"
   content : "Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizen's Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. We accomplish this using the following methods:"
 
   button:
@@ -79,7 +79,7 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "We're a new organizations with lofty goals."
+  subtitle : "We're a new organization with lofty goals."
   title : "We need your help"
   button:
     enable : true
@@ -103,7 +103,7 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false 
   title : "Upcoming Events"
   # event item comes from "content/**/event" folder.
 
@@ -134,6 +134,11 @@ funfacts:
 
 ############################# blog ################################
 blog:
-  enable : true
+  enable : true 
   title : "Latest News"
   # blog item comes from "content/**/blog" folder.
+
+
+############################# enable bios on about page ##########
+bios:
+  enable: false

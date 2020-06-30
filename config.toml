@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://cpcscc.org"
+baseURL = "https://www.cpcscc.org"
 title = "Citizen's Privacy Coalition of Santa Clara County"
 theme = "educenter-hugo"
 # post pagination
@@ -7,16 +7,24 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+#disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = [] # disable language from here
+
+
+############################# Permalinks ##############################
+
+[permalinks]
+  news = "/news/:year/:month/:day/:title/"
+  events = "/events/:year/:month/:day/:title/"
 
 
 ############################# Plugins ##############################
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
+link = "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+#link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
@@ -30,7 +38,7 @@ link = "https://use.fontawesome.com/releases/v5.0.13/css/all.css"
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
+link = "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
@@ -50,14 +58,14 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "Events"
-URL = "event"
+name = "News"
+URL = "news"
 weight = 2 
   
-[[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 3
+#[[menu.main]]
+#name = "Events"
+#URL = "event"
+#weight = 3 
   
 [[menu.main]]
 name = "Contact"
@@ -90,10 +98,12 @@ URL = "research"
 
 #################### default parameters ################################
 [params]
+shortTitle = "CPC of Santa Clara County"
 logo = ""
+og_image = "images/og.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Watch the watchers. Empower the people."
+author = "Citizen's Privacy Coalition of Santa Clara County"
 # contact info
 address = "Santa Clara County, CA"
 mobile = ""
@@ -107,7 +117,7 @@ top_header = true
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false 
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
@@ -128,27 +138,32 @@ map_marker = "images/marker.png" # marker size 37*55 px
 ############################# social site ########################
 [[params.social]]
 title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-twitter" 
 link = "https://twitter.com/cpcscc"
 
 [[params.social]]
 title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-instagram" 
 link = "https://instagram.com/cpcscc_"
 
 [[params.social]]
 title = "facebook"
-icon = "fab fa-facebook-f" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-facebook-f"
 link = "https://facebook.com/cpcscc"
 
+#[[params.social]]
+#title = "meetup"
+#icon = "fab fa-meetup"
+#link = "https://meetup.com/cpcscc"
+
 [[params.social]]
-title = "meetup"
-icon = "fab fa-meetup" # themify icon : https://themify.me/themify-icons
-link = "https://meetup.com/cpcscc"
+title = "github"
+icon = "fab fa-github"
+link = "https://github.com/cpcscc"
 
 [[params.social]]
 title = "contact"
-icon = "fas fa-envelope" # themify icon : https://themify.me/themify-icons
+icon = "fas fa-envelope"
 link = "mailto:contact@cpcscc.org"
 
 
@@ -160,15 +175,17 @@ contentDir = "content/en"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Citizen's Privacy Coalition of Santa Clara County" 
+credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"
 
 
-################################### French language #####################################
-[Languages.es]
-languageName = "Español"
-languageCode = "es"
-contentDir = "content/es"
-weight = 2
-home = "Accueil"
+################################### Spanish language #####################################
+#[Languages.es]
+#languageName = "Español"
+#languageCode = "es"
+#contentDir = "content/es"
+#weight = 2
+#home = "Inicio"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+#copyright = "Copyright &copy; 2020 Citizen's Privacy Coalition of Santa Clara County" 
+#credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"

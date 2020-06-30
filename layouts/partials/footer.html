@@ -1,0 +1,88 @@
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  {{ if .Site.Params.subscription.enable }}
+  {{ with .Site.Params.subscription }}
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">{{ i18n "subscribe_newsletter" }}</h3>
+          <form id="newsletter_form" name="submit-to-google-sheet">
+            <div class="input-wrapper">
+              <input type="email" id="email" class="form-control border-0" id="newsletter" name="email" placeholder="{{ i18n "enter_email" }}">
+              <button id="submit" type="submit" class="btn btn-primary">{{ i18n "join" }}</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">{{ .Site.Params.copyright | markdownify }}</p>
+          <p class="mb-0">{{ .Site.Params.credits | markdownify }}</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            {{ range .Site.Params.social }}
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ with .Site.Params.google_analitycs_id}}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{{ end }}
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw6ffgUazzH2AT-TjSCH6Yx_e84IHTnn8vyoaDS8o73rJ9fG-U/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+  form.reset();
+</script>

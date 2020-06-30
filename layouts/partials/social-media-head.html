@@ -1,0 +1,28 @@
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {{- if .IsHome }}
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+  {{- else }}
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Params.shortTitle }}" />
+  <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Params.shortTitle }}" />
+  <meta property="og:description" content="{{ .Description }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
+  {{- end }}
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta name="twitter:url" content="{{ .Permalink }}" />
+  <meta property="article:publisher" content="https://www.facebook.com/cpcscc" />
+  <meta name="twitter:site" content="@cpcscc" />
+  {{- if .Params.image }}
+  <meta property="og:image" content="{{ index .Params "image" }}" />
+  <meta name="twitter:image" content="{{ index .Params "image" }}" />
+  {{- else if .Params.bg_image }}
+  <meta property="og:image" content="{{ index .Params "bg_image" }}" />
+  <meta name="twitter:image" content="{{ index .Params "bg_image" }}" />
+  {{- else }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+  {{- end }}
