@@ -16,13 +16,16 @@
   <meta name="twitter:url" content="{{ .Permalink }}" />
   <meta property="article:publisher" content="https://www.facebook.com/cpcscc" />
   <meta name="twitter:site" content="@cpcscc" />
-  {{- if .Params.image }}
-  <meta property="og:image" content="{{ index .Params "image" }}" />
-  <meta name="twitter:image" content="{{ index .Params "image" }}" />
+  {{- if .Params.og_image }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}/{{ index .Params "og_image" }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{ index .Params "og_image" }}" />
+  {{- else if .Params.image }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}/{{ index .Params "image" }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{ index .Params "image" }}" />
   {{- else if .Params.bg_image }}
   <meta property="og:image" content="{{ index .Params "bg_image" }}" />
   <meta name="twitter:image" content="{{ index .Params "bg_image" }}" />
   {{- else }}
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.og_image }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.og_image }}" />
   {{- end }}
