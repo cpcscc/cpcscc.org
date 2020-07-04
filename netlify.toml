@@ -11,3 +11,8 @@ HUGO_ENABLEGITINFO = "true"
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/fr-petition"
+  to = "http://chng.it/4x7mXzjC" 
+  status = 301
