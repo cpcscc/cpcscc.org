@@ -10,7 +10,7 @@ description : "Watch the watchers. Empower the people."
 ---
 
 ## Our Mission
-Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizen's Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. We are a grassroots, volunteer-run watch dog coalition that aims to combat the lack of oversight and awareness surrounding the state of government and corporate surveillance in the heart of Silicon Valley using the methods outlined below:
+Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizen's Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. As our name implies, we are a grassroots, volunteer-run watch dog coalition that aims to combat the lack of oversight and awareness surrounding the state of government and corporate surveillance in the heart of Silicon Valley using the methods outlined below:
 
 ### Investigate {{< fontawesome "fas fa-search" >}}
 We probe city, county, and federal government offices through public records requests to determine techniques and funding behind surveillance efforts anywhere in the county. We also attend public meetings in which surveillance issues are discussed to stay up-to-date with ongoing efforts. We are interested in learning about any and all surveillance efforts deployed in the county, but particularly in facial recognition, drone surveillance, and the surveillance of activists, journalists, and immigrants — including efforts from the United States Immigration and Customs Enforcement (ICE) in the county. 
