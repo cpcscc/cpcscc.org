@@ -16,3 +16,6 @@ HUGO_ENABLEGITINFO = "true"
   from = "/fr-petition"
   to = "http://chng.it/4x7mXzjC" 
   status = 301
+[[redirects]]
+  from = "/fr"
+  to = "/resources/facial-recognition"

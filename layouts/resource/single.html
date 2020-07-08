@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<!-- notice details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex">
+          {{ with .GitInfo }}
+          <a  href="https://github.com/{{ .Site.Params.github_repo }}/commit/{{ .Hash }}">
+          {{ end }}
+          <div class="text-center mr-4">
+            <div class="p-4 bg-primary text-white">
+              Last updated<span class="h2 d-block">{{ .Lastmod.Format "06"}}</span> {{ .Lastmod.Format "JAN, 2006"}}
+            </div>
+          </div>
+          {{ with .GitInfo }}
+          </a>
+          {{ end }}
+          <!-- notice content -->
+          <div class="content">
+            {{ .Content }}
+            {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /notice details -->
+
+{{ end }}

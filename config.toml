@@ -112,6 +112,7 @@ email = "contact@cpcscc.org"
 google_analitycs_id = "" # your id
 # top header
 top_header = true
+github_repo = "cpcscc/cpcscc.org"
 
 # Preloader
 [params.preloader]
