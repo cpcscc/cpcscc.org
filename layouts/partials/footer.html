@@ -11,7 +11,7 @@
           <form id="newsletter_form" name="submit-to-google-sheet">
             <div class="input-wrapper">
               <input type="email" id="email" class="form-control border-0" id="newsletter" name="email" placeholder="{{ i18n "enter_email" }}">
-              <button id="submit" type="submit" class="btn btn-primary">{{ i18n "join" }}</button>
+              <button id="submit" type="submit" class="btn btn-primary" data-target="#submission-modal">{{ i18n "join" }}</button>
             </div>
           </form>
         </div>
@@ -43,6 +43,8 @@
       </div>
     </div>
   </div>
+
+  {{ partial "submission-modal.html" }}
 </footer>
 <!-- /footer -->
 
@@ -81,8 +83,8 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
+      .then(response => $("#success-modal").modal())
+      .catch(error => $("#fail-modal").modal())
   })
   form.reset();
 </script>
