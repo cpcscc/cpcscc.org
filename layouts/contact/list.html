@@ -14,7 +14,7 @@
         <p>We can only achieve our mission with your help. Fill out the form below and we will reach out soon.</p>
         <form name="v_submit-to-google-sheet" action="{{ .Site.Params.contact_form_action | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="v_name" name="v_name" placeholder="Your Name">
-          <input type="v_email" class="form-control mb-3" id="mail" name="v_email" placeholder="Your Email">
+          <input type="email" class="form-control mb-3" id="mail" name="v_email" placeholder="Your Email">
           <textarea name="v_reason" id="v_reason" class="form-control mb-3" placeholder="Why do you want to volunteer?"></textarea>
           <button id="v_btn" type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
@@ -29,8 +29,8 @@
   v_form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(v_scriptURL, { method: 'POST', body: new FormData(v_form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
+      .then(response => $("#success-modal").modal())
+      .catch(error => $("#fail-modal").modal())
     v_form.reset();
   })
 </script>
