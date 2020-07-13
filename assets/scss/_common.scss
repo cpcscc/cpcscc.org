@@ -366,7 +366,6 @@ textarea.form-control{
     th,
     td {
       padding: .75rem;
-      vertical-align: top;
       border: 1px solid #dee2e6
     }
 
@@ -377,9 +376,6 @@ textarea.form-control{
     tbody {
       background: $light;
 
-      td {
-        text-align: left !important;
-      }
     }
   }
 

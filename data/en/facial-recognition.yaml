@@ -1,0 +1,82 @@
+headers:
+  - City  (By Population)
+  - Employs  Facial  Recognition?
+  - Has Banned Facial Recognition?
+  - CPC  Representative?
+  - Petition Link
+values:
+  - - Santa Clara County,
+    - <i class="fa fa-check-square red"></i>
+    - <i class="fa fa-times-circle red"></i>
+    - <i class="fa fa-check-square green"></i>
+    - http://chng.it/4x7mXzjC  
+  - San Jose
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Sunnyvale
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Santa Clara
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-check-square green"></i>
+    http://chng.it/4x7mXzjC  
+  - Mountain View
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Milpitas
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Palo Alto
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Cupertino <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Gilroy
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Campbell
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Morgan Hill
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Saratoga
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Los Gatos
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Los Altos
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  
+  - Monte Sereno
+    <i class="fa fa-question-circle"></i>
+    <i class="fa fa-times-circle red"></i>
+    <i class="fa fa-times-circle red"></i>
+    http://chng.it/4x7mXzjC  

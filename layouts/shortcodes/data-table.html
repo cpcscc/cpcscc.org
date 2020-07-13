@@ -1,5 +1,21 @@
+{{ $data := index $.Page.Params ( .Get 0 ) }}
 <table class="data-table">
-{{ range 0 }}
-  {{ range . }}
-
-
+  <tr>
+    <thead>
+    {{- range ( index $data 0 ) }}
+      {{- range . }}
+      <th>{{ . }}</th>
+      {{- end }}
+    {{- end }}
+    </thead>
+  </tr>
+  {{- range ( index $data 1 ) }}
+  {{- range . }}
+  <tr>
+  {{- range . }}
+    <td>{{ . | safeHTML }}</td>
+  {{- end }}
+  </tr>
+  {{- end }}
+  {{- end }}
+</table>

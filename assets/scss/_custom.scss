@@ -4,12 +4,16 @@
 }
 
 .data-table {
-  text-align: center;
+    text-align: center !important;
+    vertical-align: middle !important;
 
-  i {
-    text-size: x-large;
+  i.fas,
+  i.far,
+  i.fab, {
+    font-size: x-large;
+    vertical-align: middle !important;
   }
-
+    
 }
 
 .red {
@@ -18,4 +22,8 @@
 
 .green {
   color: green;
+}
+
+.purple {
+  color: purple;
 }
