@@ -26,8 +26,8 @@ slider:
         link : "news/2020/07/04/stop-facial-recognition-surveillance-in-santa-clara-county/"
 
     # slider item loop
-    - title : "Take back your privacy."
-      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Follow us and attend our workshops."
+    - title : "Happy Cyber Security Awareness Month."
+      content : "Follow us on Instagram for weekly tips on protecting yourself while fighting for causes you care about. Additionally, check out our events below."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
