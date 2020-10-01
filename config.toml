@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://www.cpcscc.org"
-title = "Citizen's Privacy Coalition of Santa Clara County"
+title = "Citizens Privacy Coalition of Santa Clara County"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -103,7 +103,7 @@ logo = ""
 og_image = "images/og.png"
 # Meta data
 description = "Watch the watchers. Empower the people."
-author = "Citizen's Privacy Coalition of Santa Clara County"
+author = "Citizens Privacy Coalition of Santa Clara County"
 # contact info
 address = "Santa Clara County, CA"
 mobile = ""
@@ -173,7 +173,7 @@ contentDir = "content/en"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 Citizen's Privacy Coalition of Santa Clara County" 
+copyright = "Copyright &copy; 2020 Citizens Privacy Coalition of Santa Clara County" 
 credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"
 
 
@@ -185,5 +185,5 @@ credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [H
 #weight = 2
 #home = "Inicio"
 # copyright
-#copyright = "Copyright &copy; 2020 Citizen's Privacy Coalition of Santa Clara County" 
+#copyright = "Copyright &copy; 2020 Citizens Privacy Coalition of Santa Clara County" 
 #credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"

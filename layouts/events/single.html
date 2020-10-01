@@ -30,7 +30,8 @@
               <i class="ti-calendar text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
-                <p class="mb-0">{{ .Date.Format "02 Jan, 2006"}}</p>
+                {{- if .Date.IsZero }}<p class="mb-0">TBA</p>
+                {{- else }}<p class="mb-0">{{ .Date.Format "January 2, 2006"}}</p>{{- end }}
               </div>
             </div>
           </li>
@@ -39,7 +40,8 @@
               <i class="ti-time text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
-                <p class="mb-0">{{ .Date.Format "15:04"}} PT</p>
+                {{- if .Date.IsZero }}<p class="mb-0">TBA</p>
+                {{- else }}<p class="mb-0">{{ .Date.Format "15:04"}} PT</p>{{- end }}
               </div>
             </div>
           </li>
