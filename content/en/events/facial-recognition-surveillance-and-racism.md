@@ -1,7 +1,7 @@
 ---
 title: "Racism in Facial Recognition Surveillance"
 # Schedule page publish date
-#publishDate: "2019-09-30"
+publishDate: "2019-09-30"
 # event date
 date: "2020-10-27T17:00:00"
 # post save as draft
