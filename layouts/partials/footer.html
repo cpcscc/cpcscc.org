@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
           <h3 class="text-white">{{ i18n "subscribe_newsletter" }}</h3>
-          <form id="newsletter_form" name="submit-to-google-sheet">
+          <form id="newsletter_form" action="https://tinyletter.com/cpcscc" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/cpcscc', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
             <div class="input-wrapper">
               <input type="email" id="email" class="form-control border-0" id="newsletter" name="email" placeholder="{{ i18n "enter_email" }}">
               <button id="submit" type="submit" class="btn btn-primary" data-target="#submission-modal">{{ i18n "join" }}</button>
@@ -75,16 +75,3 @@
   ga('send', 'pageview');
 </script>
 {{ end }}
-
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbw6ffgUazzH2AT-TjSCH6Yx_e84IHTnn8vyoaDS8o73rJ9fG-U/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => $("#success-modal").modal())
-      .catch(error => $("#fail-modal").modal())
-  })
-  form.reset();
-</script>
