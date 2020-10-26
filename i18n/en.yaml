@@ -11,13 +11,19 @@
   translation: Contact Info
 
 - id: subscribe_newsletter
-  translation: "Get updates to your inbox:"
+  translation: "Join the Coalition:"
 
 - id: subscribe
   translation: Subscribe
 
 - id: contact_us
   translation: Contact Us
+
+- id: join_us
+  translation: Fight racism. Fight surveillance. Join the Coalition.
+
+- id: follow_us
+  translation: Follow Us
 
 - id: latest_article
   translation: Latest Article
