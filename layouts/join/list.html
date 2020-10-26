@@ -23,13 +23,13 @@
         <h2 class="section-title text-center">
         {{- range .Site.Params.social }}
           {{- if eq .title "instagram" }}
-          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
           {{- end }}
           {{- if eq .title "twitter" }}
-          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
           {{- end }}
           {{- if eq .title "facebook" }}
-          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
+          <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>&nbsp;
           {{- end }}
         {{- end }}
         </h2>
