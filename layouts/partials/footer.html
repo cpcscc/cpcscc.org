@@ -1,6 +1,7 @@
 <!-- footer -->
 <footer>
   <!-- newsletter -->
+  {{ if ne .RelPermalink "/join/" }} 
   {{ if .Site.Params.subscription.enable }}
   {{ with .Site.Params.subscription }}
   <div class="newsletter">
@@ -18,6 +19,7 @@
       </div>
     </div>
   </div>
+  {{ end }}
   {{ end }}
   {{ end }}
   <!-- footer content -->

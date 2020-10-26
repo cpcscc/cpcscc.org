@@ -6,4 +6,5 @@ bg_image: "https://images.unsplash.com/photo-1583997052287-71c76c25ddac?ixlib=rb
 # meta description
 description : "Want to volunteer? Got an idea? Get in touch."
 ---
-The email below can be used for both general and press inquiries.
+### Email
+This address is appropriate for both general and press inquiries.

@@ -135,14 +135,14 @@ map_marker = "images/marker.png" # marker size 37*55 px
   
 ############################# social site ########################
 [[params.social]]
-title = "twitter"
-icon = "fab fa-twitter" 
-link = "https://twitter.com/cpcscc"
-
-[[params.social]]
 title = "instagram"
 icon = "fab fa-instagram" 
 link = "https://instagram.com/cpcscc_"
+
+[[params.social]]
+title = "twitter"
+icon = "fab fa-twitter" 
+link = "https://twitter.com/cpcscc"
 
 [[params.social]]
 title = "facebook"
