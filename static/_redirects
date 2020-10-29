@@ -1,10 +1,18 @@
-/fr-petition http://chng.it/4x7mXzjC 302
-
+# social
 /twitch https://twitch.tv/cpcscc 302
 /youtube https://www.youtube.com/channel/UCTbnfy8qfrI5zn9vwIMrFmA 302
 /instagram https://instagram.com/cpcscc_ 301
 /twitter https://twitter.com/cpcscc 301
 /facebook https://facebook.com/cpcscc 301
 
-/101 https://www.youtube.com/watch?v=Qx8AbupBWoE 302
-/102 https://slides.cpcscc.org/workshops/anti-surveillance-102/ 302
+# events
+/racism-in-fr https://rr.cpcscc.org/resources/issues/facial-recognition/2020-10-27-racism-in-facial-recognition/ 301
+
+# workshops
+/workshops https://rr.cpcscc.org/resources/workshops/ 301
+/101 https://rr.cpcscc.org/resources/workshops/anti-surveillance-101/ 301
+/102 https://rr.cpcscc.org/resources/workshops/anti-surveillance-102/ 301
+
+# resources
+/face https://rr.cpcscc.org/resources/issues/facial-recognition/ 302
+/fr-petition https://cpcscc./org/face 302
