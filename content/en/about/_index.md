@@ -3,6 +3,7 @@ title: "About the CPC"
 draft: false
 # page title background image
 bg_image: "https://images.unsplash.com/photo-1584143257259-50212e2ab820?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+images: ["https://images.unsplash.com/photo-1584143257259-50212e2ab820?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"]
 # about image
 image: ""
 # meta description
