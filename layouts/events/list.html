@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <!-- event -->
-      {{ range .Data.Pages }}
+      {{ range sort .Data.Pages ".Date" "asc" }}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "event" }}
       </div>

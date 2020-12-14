@@ -58,49 +58,31 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "News"
-URL = "news"
-weight = 2 
+name = "Resources"
+URL = "https://rr.cpcscc.org/"
+weight = 2
+
+#[[menu.main]]
+#name = "News"
+#URL = "news"
+#weight = 3 
   
 [[menu.main]]
 name = "Events"
 URL = "events"
-weight = 3 
+weight = 4 
   
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 4
-
-
-# footer menu
-
-[[menu.footer]]
-name = "teacher"
-URL = "teacher"
-
-[[menu.footer]]
-name = "notice"
-URL = "notice"
-
-[[menu.footer]]
-name = "event"
-URL = "event"
-
-[[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
-
-[[menu.footer]]
-name = "research"
-URL = "research"
+weight = 5
 
 
 #################### default parameters ################################
 [params]
 shortTitle = "Citzen's Privacy Coalition"
 logo = ""
-og_image = "images/og.png"
+images = ["images/og.png"]
 # Meta data
 description = "Watch the watchers. Empower the people."
 author = "Citizens Privacy Coalition of Santa Clara County"
@@ -148,11 +130,6 @@ link = "https://twitter.com/cpcscc"
 title = "facebook"
 icon = "fab fa-facebook-f"
 link = "https://facebook.com/cpcscc"
-
-#[[params.social]]
-#title = "meetup"
-#icon = "fab fa-meetup"
-#link = "https://meetup.com/cpcscc"
 
 [[params.social]]
 title = "github"

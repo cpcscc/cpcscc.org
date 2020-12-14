@@ -6,7 +6,6 @@
 /facebook https://facebook.com/cpcscc 301
 
 # events
-/register https://www.eventbrite.com/e/book-club-the-age-of-surveillance-capitalism-tickets-128157399231 302
 /racism-in-fr https://rr.cpcscc.org/resources/issues/facial-recognition/2020-10-27-racism-in-facial-recognition/ 301
 
 # workshops
@@ -17,6 +16,6 @@
 # resources
 /resources https://rr.cpcscc.org/resources/ 301
 /reports https://rr.cpcscc.org/reports/ 301
-/face https://rr.cpcscc.org/resources/issues/facial-recognition/ 302
-/fr-petition https://cpcscc./org/face 302
+/face https://rr.cpcscc.org/reports/2020/use-of-facial-recognition/ 302
+/fr-petition https://cpcscc./org/face 301
 /face-report https://rr.cpcscc.org/reports/2020/use-of-facial-recognition/ 302
