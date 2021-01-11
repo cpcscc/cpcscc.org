@@ -3,7 +3,7 @@ title: "Digital Security for Activists Interactive Workshop"
 # Schedule page publish date
 publishDate: "2021-01-11"
 # event date
-date: "2021-01-06T17:00:00"
+date: "2021-01-16T15:00:00"
 # post save as draft
 draft: false
 # page title background image
