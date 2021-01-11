@@ -1,5 +1,5 @@
 ---
-title: "" 
+title: "Digital Security for Activists Interactive Workshop" 
 # Schedule page publish date
 publishDate: "2021-01-11"
 # event date
