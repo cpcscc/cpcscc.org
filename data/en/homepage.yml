@@ -4,6 +4,18 @@ slider:
   bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   slider_item:
     # slider item loop
+    - title : "It's time to regulate surveillance in San José."
+      content : "Currently, surveillance technology is only subject financial oversight in San José. With your help, that could change this year."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn how"
+        link : "news/2021/02/22/cpc-joins-over-a-dozen-racial-justice-and-civil-rights-groups-supporting-surveillance-regulation-in-san-josé"
+    
+
+    # slider item loop
     - title : "Watch the watchers. Empower the people."
       content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA. Join us to help fight it."
       animation_in : "left"
@@ -14,16 +26,6 @@ slider:
         label : "Join the Coalition"
         link : "join"
     
-        # slider item loop
-    - title : "Defund racist facial recognition."
-      content : "Black individuals are 100 times more likely to be misidentified by facial recognition surveillance. Read our report to find if your police department is using it and help us ban it in Santa Clara County."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Sign the petition"
-        link : "face"
 
     # slider item loop
     - title : "Take back your privacy."
@@ -134,7 +136,7 @@ funfacts:
 
 ############################# blog ################################
 blog:
-  enable : false 
+  enable : true 
   title : "Latest News"
   # blog item comes from "content/**/blog" folder.
 
