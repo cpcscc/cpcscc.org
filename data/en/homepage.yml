@@ -4,37 +4,39 @@ slider:
   bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   slider_item:
     # slider item loop
-    - title : "Watch the watchers. Empower the people."
-      content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Volunteer now"
-        link : "contact"
-    
-        # slider item loop
-    - title : "Black lives matter."
-      content : "Black individuals are 100 times more likely to be misidentified by facial recognition surveillance, a technique currently employed in San Jose, CA."
+    - title : "It's time to regulate surveillance in San José."
+      content : "Currently, surveillance technology is only subject financial oversight in San José. With your help, that could change this year."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Learn how"
-        link : "news/2020/07/04/stop-facial-recognition-surveillance-in-santa-clara-county/"
+        link : "news/2021/02/22/cpc-joins-over-a-dozen-racial-justice-and-civil-rights-groups-supporting-surveillance-regulation-in-san-josé"
+    
 
     # slider item loop
-    - title : "Happy Cyber Security Awareness Month."
-      content : "Follow us on Instagram for weekly tips on protecting yourself while fighting for causes you care about. Additionally, check out our events below."
+    - title : "Watch the watchers. Empower the people."
+      content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA. Join us to help fight it."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Follow us"
-        link : "https://instagram.com/cpcscc_"
+        label : "Join the Coalition"
+        link : "join"
+    
+
+    # slider item loop
+    - title : "Take back your privacy."
+      content : "Are you an activist, journalist, or citizen concerned about corporate and government surveillance? Check out our anti-surveillance workshops."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Learn more"
+        link : "https://rr.cpcscc.org/resources/workshops/"
 
 
 ############################### Banner feature ###############################

@@ -58,49 +58,31 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
+name = "Resources"
+URL = "https://rr.cpcscc.org/"
+weight = 2
+
+[[menu.main]]
 name = "News"
 URL = "news"
-weight = 2 
+weight = 3 
   
 [[menu.main]]
 name = "Events"
 URL = "events"
-weight = 3 
+weight = 4 
   
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 4
-
-
-# footer menu
-
-[[menu.footer]]
-name = "teacher"
-URL = "teacher"
-
-[[menu.footer]]
-name = "notice"
-URL = "notice"
-
-[[menu.footer]]
-name = "event"
-URL = "event"
-
-[[menu.footer]]
-name = "scholarship"
-URL = "scholarship"
-
-[[menu.footer]]
-name = "research"
-URL = "research"
+weight = 5
 
 
 #################### default parameters ################################
 [params]
 shortTitle = "Citzen's Privacy Coalition"
 logo = ""
-og_image = "images/og.png"
+images = ["images/og.png"]
 # Meta data
 description = "Watch the watchers. Empower the people."
 author = "Citizens Privacy Coalition of Santa Clara County"
@@ -149,11 +131,6 @@ title = "facebook"
 icon = "fab fa-facebook-f"
 link = "https://facebook.com/cpcscc"
 
-#[[params.social]]
-#title = "meetup"
-#icon = "fab fa-meetup"
-#link = "https://meetup.com/cpcscc"
-
 [[params.social]]
 title = "github"
 icon = "fab fa-github"
@@ -173,7 +150,7 @@ contentDir = "content/en"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 Citizens Privacy Coalition of Santa Clara County" 
+copyright = "Copyright &copy; 2020 - 2021 Citizens Privacy Coalition of Santa Clara County" 
 credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"
 
 
@@ -185,5 +162,5 @@ credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [H
 #weight = 2
 #home = "Inicio"
 # copyright
-#copyright = "Copyright &copy; 2020 Citizens Privacy Coalition of Santa Clara County" 
+#copyright = "Copyright &copy; 2020 - 2021 Citizens Privacy Coalition of Santa Clara County" 
 #credits = "Design by [themefisher](https://themefisher.com) &bull; Powered by [Hugo](https://gohugo.io)"
