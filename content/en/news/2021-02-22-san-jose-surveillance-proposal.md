@@ -1,5 +1,5 @@
 ---
-title: "CPC joins over a dozen racial justice and civil rights groups supporting surveillance regulation in San José"
+title: "CPC joins over two dozen racial justice and civil rights groups supporting surveillance regulation in San José"
 date: 2021-02-22
 publishDate: "2020-02-21"
 draft: false
@@ -15,6 +15,8 @@ author: "Ethan Gregory Dodge"
 # taxonomy
 categories: ["Legislation"]
 tags: ["San José"]
+aliases:
+  - /news/2021/02/22/cpc-joins-over-a-dozen-racial-justice-and-civil-rights-groups-supporting-surveillance-regulation-in-san-josé/
 # type
 type: "post"
 ---
@@ -31,4 +33,4 @@ Please, contact your council member today and urge them to support this proposal
 
 We have made it easy for you, if you take two minutes and fill out [this form](/email), an email in your name expressing your support will be sent to the Mayor and your council member. Please also consider calling them. You can find out which district your in [here](https://www.sanjoseca.gov/home/showpublisheddocument?id=23661) and who your representative is [here](https://www.sanjoseca.gov/your-government/departments/city-council).
 
-{{< document_embed filename="20489648" >}}
+{{< document_embed filename="20491731" >}}
