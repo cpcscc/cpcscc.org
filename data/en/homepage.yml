@@ -82,7 +82,7 @@ course:
 cta:
   enable : true
   subtitle : "We're a new organization with lofty goals."
-  title : "We need your help"
+  title : "We need your help."
   button:
     enable : true
     label : "Volunteer"
