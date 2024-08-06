@@ -7,6 +7,7 @@ images: ["https://images.unsplash.com/photo-1509580357930-a711cf9d888d?ixlib=rb-
 # meta description
 description : "Fight racism. Fight surveillance."
 ---
-We are a strong, dedicated group of citizens who have been fighting racist surveillance in the South Bay since July 2020. Join our fight today and you'll recieve exclusive, regular updates with critical information you need to help push this movement forward, such as events, workshops, trainings, reports, calls to action, and digests of relevant privacy news from Santa Clara County and beyond.
+We are a strong, dedicated group of citizens who have been fighting racist surveillance in the Bay Area since July 2020. Join our fight today. Reach out to us on instagram (@cpcscc_) or email to volunteer or learn more and to help push this movement forward. Help us with events, workshops, trainings, reports, and calls to action in the Bay Area.
 
-Don't worry, we only collect your email address and it won't **ever** leave our mailing list. Our list is hosted by [TinyLetter](https://tinyletter.com), which is owned by [MailChimp](https://mailchimp.com). You can read their privacy policy [here](https://mailchimp.com/legal/privacy/). We do not track you in any way in our emails.
+
+
