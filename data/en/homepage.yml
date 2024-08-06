@@ -4,27 +4,27 @@ slider:
   bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   slider_item:
     # slider item loop
-    - title : "It's time to regulate surveillance in San José."
-      content : "Currently, surveillance technology is only subject financial oversight in San José. With your help, that could change this year."
+    - title : "It's time to regulate surveillance in the Bay Area."
+      content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "Volunteer now"
-        link : "contact"
+        link : "join"
     
 
-    # slider item loop
-    - title : "Watch the watchers. Empower the people."
-      content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA. Join us to help fight it."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Join the Coalition"
-        link : "join"
+    # # slider item loop
+    # - title : "Watch the watchers. Empower the people."
+    #   content : "Police departments across the U.S. deploy privacy-invading surveillance technology, including in Santa Clara County, CA. Join us to help fight it."
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : true
+    #     label : "Join the Coalition"
+    #     link : "join"
     
 
     # slider item loop
@@ -64,7 +64,7 @@ about:
   enable : true
   title : "About the CPC"
   image : "https://images.unsplash.com/photo-1591562654806-eb7f7f39d1fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&h=649&q=80"
-  content : "Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizens Privacy Coalition of Santa Clara County (CPC) exists to watch the watchers and empower the people of Santa Clara County, California. We accomplish this using the following methods:"
+  content : "Founded in the wake of the 2020 Black Lives Matter demonstrations, the Citizens Privacy Coalition (CPC) exists to watch the watchers and empower the people of the Bay Area. We accomplish this using the following methods:"
 
   button:
     enable : true
@@ -78,15 +78,15 @@ course:
   title : "Our Course"
   # course item comes from "content/**/course" folder.
 
-########################## Call to action ############################
-cta:
-  enable : true
-  subtitle : "We're a new organization with lofty goals."
-  title : "We need your help."
-  button:
-    enable : true
-    label : "Volunteer"
-    link : "contact"
+# ########################## Call to action ############################
+# cta:
+#   enable : true
+#   subtitle : "We're a new organization with lofty goals."
+#   title : "We need your help."
+#   button:
+#     enable : true
+#     label : "Volunteer"
+#     link : "contact"
 
 
 ######################## Success story #############################
@@ -134,10 +134,10 @@ funfacts:
 
 
 
-############################# blog ################################
-blog:
-  enable : true 
-  title : "Latest News"
+# ############################# blog ################################
+# blog:
+#   enable : true 
+#   title : "Archive"
   # blog item comes from "content/**/blog" folder.
 
 

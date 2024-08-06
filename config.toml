@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://www.cpcscc.org"
-title = "Citizens Privacy Coalition of Santa Clara County"
+title = "Citizens Privacy Coalition"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -63,8 +63,8 @@ URL = "https://rr.cpcscc.org/"
 weight = 2
 
 [[menu.main]]
-name = "News"
-URL = "news"
+name = "Archive"
+URL = "archive"
 weight = 3 
   
 [[menu.main]]
@@ -72,10 +72,10 @@ name = "Events"
 URL = "events"
 weight = 4 
   
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 5
+#[[menu.main]]
+#name = "Contact"
+#URL = "contact"
+#weight = 5
 
 
 #################### default parameters ################################
@@ -89,7 +89,7 @@ author = "Citizens Privacy Coalition of Santa Clara County"
 # contact info
 address = "Santa Clara County, CA"
 mobile = ""
-email = "contact@cpcscc.org"
+email = "bayareaprivacy@gmail.com"
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
@@ -121,15 +121,15 @@ title = "instagram"
 icon = "fab fa-instagram" 
 link = "https://instagram.com/cpcscc_"
 
-[[params.social]]
-title = "twitter"
-icon = "fab fa-twitter" 
-link = "https://twitter.com/cpcscc"
+#[[params.social]]
+#title = "twitter"
+#icon = "fab fa-twitter" 
+#link = "https://twitter.com/cpcscc"
 
-[[params.social]]
-title = "facebook"
-icon = "fab fa-facebook-f"
-link = "https://facebook.com/cpcscc"
+#[[params.social]]
+#title = "facebook"
+#icon = "fab fa-facebook-f"
+#link = "https://facebook.com/cpcscc"
 
 [[params.social]]
 title = "github"
@@ -139,7 +139,7 @@ link = "https://github.com/cpcscc"
 [[params.social]]
 title = "contact"
 icon = "fas fa-envelope"
-link = "mailto:contact@cpcscc.org"
+link = "mailto:bayareaprivacy@gmail.com"
 
 
 ################################### English language #####################################
