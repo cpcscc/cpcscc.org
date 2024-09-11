@@ -4,6 +4,17 @@ slider:
   bg_image : "https://images.unsplash.com/photo-1474301105119-cdc36a303335?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
   slider_item:
     # slider item loop
+    - title : "We need your help!"
+      content : "We are creating a documentary to show just how much surveillance affects our lives in the Bay Area. 
+      Any donation would help share how experts, activists, and everyday citizens feel about the surveillance effecting their lives today."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Donate now"
+        link : "https://seedandspark.com/fund/watch-the-watchers?token=9a83801e4562a6e1e848ee4517b978856dfb832076e4e508745120edc4"
+
     - title : "It's time to regulate surveillance in the Bay Area."
       content : ""
       animation_in : "left"
