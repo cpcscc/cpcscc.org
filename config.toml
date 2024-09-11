@@ -57,10 +57,10 @@ name = "About"
 URL = "about"
 weight = 1
 
-[[menu.main]]
-name = "Resources"
-URL = "https://rr.cpcscc.org/"
-weight = 2
+#[[menu.main]]
+#name = "Resources"
+#URL = "https://rr.cpcscc.org/"
+#weight = 2
 
 [[menu.main]]
 name = "Archive"
